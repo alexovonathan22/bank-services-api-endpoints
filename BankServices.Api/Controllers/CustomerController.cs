@@ -19,7 +19,7 @@ namespace BankServices.Api.Controllers
         }
 
         // GET: api/Customer/5
-        [HttpGet("{id}", Name = "Get")]
+        [HttpGet("{id}", Name = "Getcstname")]
         public string Get(int id)
         {
             return "value";
